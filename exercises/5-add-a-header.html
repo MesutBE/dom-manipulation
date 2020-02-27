@@ -46,6 +46,15 @@
 
       <script id='DOM manipulation script'>
         // write me! (... without using cloneNode, that's kind of cheating)
+        const divEl = document.getElementById('replication');
+        divEl.children[0].children[1].innerText = 'solar systems';
+        //debugger;
+
+        const hOneEl = document.createElement('h1');
+        hOneEl.innerText = 'This is a Header';
+        
+        const headerEl = document.getElementsByTagName('HEADER');
+        headerEl.appendChild(hOneEl);
       </script>
 
     </div>
