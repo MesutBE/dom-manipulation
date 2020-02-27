@@ -39,6 +39,13 @@
 
       <script id='DOM manipulation script'>
        // write me! (... without using cloneNode, that's kind of cheating)
+       const divEl = document.getElementById('replication');
+       const aEl = document.createElement('a');
+       aEl.innerText = toString(divEl.children[1].innerText);
+       aEl.href = toString(divEl.children[1].href);
+       aEl.target = toString(divEl.children[1].target);
+       
+       divEl.appendChild(aEl);
       </script>
 
     </div>
