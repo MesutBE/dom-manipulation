@@ -47,6 +47,12 @@
 
       <script id='DOM manipulation script'>
         // write me! (... without using cloneNode, that's kind of cheating)
+        const ulEl = document.getElementById('replication').children[1];
+        const things = ['robots', 'solar systems', 'oil'];
+
+        things.forEach((thing, index) => {
+          ulEl.children[index].innerText = thing;
+        })
       </script>
 
     </div>
