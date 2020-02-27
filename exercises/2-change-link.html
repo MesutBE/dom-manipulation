@@ -38,6 +38,9 @@
 
       <script id='DOM manipulation script'>
         // write me! (... without using cloneNode, that's kind of cheating)
+        const aEl = document.getElementById('replication').children[0]
+        aEl.innerHTML = aEl.innerHTML.replace('pigs', 'badgers');
+        aEl.target = "_blank";
       </script>
 
     </div>
