@@ -50,11 +50,12 @@
         divEl.children[0].children[1].innerText = 'solar systems';
         //debugger;
 
-        const hOneEl = document.createElement('h1');
-        hOneEl.innerText = 'This is a Header';
+        const h1El = document.createElement('h1');
+        h1El.innerText = 'a list of things';
         
-        const headerEl = document.getElementsByTagName('HEADER');
-        headerEl.appendChild(hOneEl);
+        h1El.insertBefore(h1El, divEl.childNodes[0]);
+
+
       </script>
 
     </div>
