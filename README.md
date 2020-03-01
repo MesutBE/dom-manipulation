@@ -41,4 +41,5 @@ Some helpful resources
 * [more from HYF Amsterdam](https://github.com/HackYourFuture/JavaScript2/blob/master/Week1/README.md)
 * [javascript.info](https://javascript.info/document) (.1 & .2 are enough for now)
 * [DOM Crash-Course Tutorial](https://www.youtube.com/watch?v=0ik6X4DJKCc)
+delete
 
